@@ -3,7 +3,7 @@ public class Main {
     //Задача 1
     {
         System.out.println("Задача 1");
-        for( int i = 0; i<10; i = i+1){
+        for( int i = 1; i<10; i = i+1){
         System.out.println(i);}
         System.out.println();
     //Задача 2
@@ -13,8 +13,10 @@ public class Main {
         System.out.println();
     //Задача 3
         System.out.println("Задача 3");
-        for( int i = 0; i<17; i=i+2){
-            System.out.println(i);}
+        for( int i = 0; i<17; i++){
+            if (i % 2 ==0){
+            System.out.println(i+"");}
+        }
         System.out.println();
     //Задача 4
         System.out.println("Задача 4");
